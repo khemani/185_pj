@@ -1,0 +1,32 @@
+{
+  "name": "new",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.3.1",
+    "react-dom": "16.3.1",
+    "react-scripts": "1.1.0",
+    "react-styleguidist": "^10.1.0",
+    "source-map-explorer": "^2.1.0",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "react-devtools": "^4.2.0",
+    "serve": "^11.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "flow": "flow",
+    "prod": "node build/static/js/main.f4442ffd.js",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "starthttps": "HTTPS=true react-scripts start",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build"
+  }
+}
